@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tasktype"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/taskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp" >
+
+        <TextView
+            android:id="@+id/typeTitle"
+            style="@style/taskType"
+            android:layout_weight="1"
+            android:text="@string/taskType" />
+
+        <TextView
+            android:id="@+id/grossTitle"
+            style="@style/taskType"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/gross" />
+
+        <TextView
+            android:id="@+id/accomplishmentTitle"
+            style="@style/taskType"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="@string/accomplishment" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/tasktypeList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taskTitle"
+        android:layout_margin="5dp" >
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/bottomMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/population"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_selector"
+            android:drawableTop="@drawable/icon"
+            android:gravity="center"
+            android:text="@string/population"
+            android:textColor="@drawable/text_selector"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_selector"
+            android:drawableTop="@drawable/icon"
+            android:gravity="center"
+            android:text="@string/site"
+            android:textColor="@drawable/text_selector"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/communityQuery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_selector"
+            android:drawableTop="@drawable/icon"
+            android:gravity="center"
+            android:text="@string/communityQuery"
+            android:textColor="@drawable/text_selector"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/rental"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_selector"
+            android:drawableTop="@drawable/icon"
+            android:gravity="center"
+            android:text="@string/rental"
+            android:textColor="@drawable/text_selector"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/bottomMenu"
+        android:background="@color/topbar" />
+
+    <FrameLayout
+        android:id="@+id/centerBody"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/divider" >
+    </FrameLayout>
+
+</RelativeLayout>

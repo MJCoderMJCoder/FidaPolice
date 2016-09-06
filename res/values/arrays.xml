@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="siteType">
+        <item>场所类型</item>
+        <item>学校</item>
+        <item>行政机关</item>
+        <item>事业单位</item>
+        <item>旅馆酒店</item>
+        <item>网吧</item>
+        <item>棋牌馆</item>
+        <item>批发市场</item>
+        <item>便利店</item>
+    </string-array>
+
+</resources>

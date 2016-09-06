@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">菲达Police</string>
+    <string name="settings">设置</string>
+    <string name="login">登录</string>
+    <string name="password">密码</string>
+    <string name="userName">用户名</string>
+    <string name="upgrade">升级</string>
+    <string name="setIPtitle">设置服务器地址：</string>
+    <string name="hintIP">http:192.168.2.10:815</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="getData">检查更新</string>
+    <string name="changePassword">修改密码</string>
+    <string name="routineName">日常工作</string>
+    <string name="tempStorage">暂存</string>
+    <string name="community">小区</string>
+    <string name="noCommunity">非小区</string>
+    <string name="scan">扫描</string>
+    <string name="population">人口查询</string>
+    <string name="site">场所查询</string>
+    <string name="communityQuery">小区查询</string>
+    <string name="rental">租房查询</string>
+    <string name="name">姓名</string>
+    <string name="id">身份证号</string>
+    <string name="siteName">场所名称</string>
+    <string name="siteType">场所类型</string>
+    <string name="communityName">小区名称</string>
+    <string name="landlordName">房东姓名</string>
+    <string name="rentalAddress">小区名称</string>
+    <string name="renterName">承租人姓名</string>
+    <string name="submit">提交</string>
+    <string name="taskInfo">任务信息</string>
+    <string name="quarterTask">季度任务</string>
+    <string name="annualTask">年度任务</string>
+    <string name="slide">从左向右滑动</string>
+    <string name="taskType">任务类型</string>
+    <string name="gross">总量</string>
+    <string name="accomplishment">完成量</string>
+    <string name="scan_text">扫描</string>
+    <string name="workLog">工作日志的目的是帮助撰写者反省总结一天的工作，不断改善提高自己。所以一篇好的工作日志，可以从时间、内容和感想三个维度来考量......</string>
+
+</resources>
